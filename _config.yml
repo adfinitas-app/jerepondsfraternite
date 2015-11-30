@@ -1,0 +1,75 @@
+name: Foyer Notre-Dame des Sans Abris
+author: adfinitas
+url: 'http://crimson-falcon1.cloudvent.net/'
+url_iraiser: 'https://soutenir.fndsa.org/'
+url_iraiser_donner: 'https://soutenir.fndsa.org/b?cid=1'
+iraiser_counter_user_api: fndsaapi
+iraiser_counter_user_pass: atY3TVHl
+excerpt_separator: <!--more-->
+collections:
+  posts:
+    output: true
+  drafts:
+    output: true
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: t2
+modes:
+  - titre + image
+  - titre + introduction
+  - image
+type_de_dons:
+  - once
+  - regular
+reductions:
+  - '75%'
+  - '66%'
+pictograms:
+  Actualites:
+    image: /lib/img/actualite.png
+    alt: pictogramme actualites
+  Emploi:
+    image: /lib/img/benevolat.png
+    alt: pictogramme emploi
+  Calculatrice:
+    image: /lib/img/calculette.png
+    alt: pictogramme calculatrice
+  Documents:
+    image: /lib/img/download-icon.png
+    alt: pictogramme documents
+  Informations:
+    image: /lib/img/information.png
+    alt: pictogramme informations
+  Services:
+    image: /lib/img/etablissement.png
+    alt: pictogramme services
+  Aucun:
+    image: nill
+    alt: nill
+buttons:
+  Télécharger:
+    image: /lib/img/download.png
+    alt: Télécharger
+  Plus:
+    image: /lib/img/btn_actu.png
+    alt: Plus
+calculatrice:
+  reduction: '75%'
+  plafond: 529
+  message_depassement_plafond: 'La réduction de don est de 75 % dans la limite de 529 € (plafond 2015). Au-delà, la réduction d’impôt est de 66 % dans la limite de 20 % de votre revenu imposable.'
+types:
+  - plein
+  - transparent
+couleurs:
+  - cyan
+  - bleu
+  - orange
+  - blanc
+  - gris
+contenus:
+  - portraits
+  - lieux
+  - documents
+  - posts

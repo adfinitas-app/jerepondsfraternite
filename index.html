@@ -1,0 +1,254 @@
+---
+layout: accueil
+meta:
+  title: 'FNDSA'
+  description: "FNDSA..."
+menu:
+  - texte: "Qui aidons-nous ?"
+    url: "/qui-aidons-nous/"
+    bouton: false
+  - texte: "Que faisons-nous ?"
+    url: "/que-faisons-nous/"
+    bouton: false
+  - texte: "Bric à Brac"
+    url: "/les-bric-a-brac/"
+    bouton: false
+  - texte: "Actualités"
+    url: "/actualites/"
+    bouton: false
+  - texte: "Je veux aider"
+    url: site.url_iraiser
+    bouton: true
+module_video_nogutter:
+  header: false
+  footer: false
+  code_embed_de_la_video: "https://www.youtube.com/embed/v=ec8yhZgaOaQ#t=4"
+---
+
+
+    <div id="fndsa_menu" class="contain-to-grid sticky">
+      <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="/"><img src="/img/logo.png" alt="" style="height: 40px"></a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section fndsa_topbar">
+          <ul class="left">
+            {% for item in page.menu %}
+            <li><a href="{{ item.url }}" {% if item.bouton %}class="radius primary fndsa_primary_correct" {% endif %}><span>{{item.texte}}</span></a></li>
+            {% endfor %}
+          </ul>
+        </section>
+
+      </nav>
+    </div>
+
+    <div id="fndsa_player">
+      {% include module_video_nogutter.html %}
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+      <a href="#" class="fndsa_actu_foyer right">
+        <span class="left">S'abonner à<br/> l'actualité du foyer</span>
+        <img class="right" src="img/actus.png"  alt="">
+      </a>
+      </div>
+    </div>
+
+    <div id="fndsa_qui_aidons_nous" class="row">
+      <div class="large-12 columns" style="position: relative;">
+        <h1 class="editable">Qui aidons-nous ?</h1>
+      </div>
+    </div>
+
+    <div id="fndsa_histoires" class="row">
+
+      <div class="large-3 large-offset-1 columns fndsa_histoire fndsa_left editable">
+        <h3 class="zouhair">Zouhair</h3>
+        <img src="img/zouhair.png" alt="">
+        <a class="button radius zouhair fndsa_histoires_lire">Lire son histoire</a>
+      </div>
+
+      <div class="large-3 columns fndsa_histoire fndsa_middle editable">
+        <h3 class="pierre">Pierre</h3>
+        <img src="img/pierre.png" alt="">
+        <a class="button radius pierre fndsa_histoires_lire">Lire son histoire</a>
+      </div>
+
+      <div class="large-3 columns end fndsa_histoire fndsa_right editable">
+        <h3 class="denisa">Denisa</h3>
+        <img src="img/denisa.png" alt="">
+        <a class="button radius denisa fndsa_histoires_lire">Lire son histoire</a>
+      </div>
+
+    </div>
+
+    <div id="fnda_histoires_p" class="row">
+
+      <div class="large-10 large-offset-1 columns end text-center fndsa_color_gray editable">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="large-10 large-offset-1 columns end text-center editable">
+        <p class="fndsa_aidons_bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div id="fndsa_don" class="large-10 large-offset-1 columns end text-center editable">
+        <a href="#" class="button primary radius">Je fais un don</a>
+      </div>
+    </div>
+
+    <div class="fndsa_background_blue">
+    <div id="fndsa_mission_bluebox" class="row fndsa_mission editable">
+      <h2>Depuis 65 ans, notre mission :</h2>
+      <h2 class="fndsa_bold">accueillir, héberger, accompagner et insérer</h2>
+      <div class="large-5 large-offset-1 columns">
+        <a href="#" class="button outline radius expand">Découvrir le foyer</a>
+      </div>
+      <div class="large-5 columns end editable">
+        <a href="#" class="button outline radius expand">Les implantations du foyer</a>
+      </div>
+    </div>
+    </div>
+
+
+    <div id="fndsa_background_pictures">
+    <div class="row">
+      <div class="large-6 columns fndsa_background_pictures_left">
+        <div class="editable">
+          <h4>Offrir un toit<br> pour protéger la rue</h4>
+          <img src="img/arrow_go.png" alt="&raquo;">
+        </div>
+      </div>
+      <div class="large-6 columns fndsa_background_pictures_right">
+        <div class="editable">
+          <h4>Reconstruire leur avenir par<br>l'insertion professionnelle</h4>
+          <img src="img/arrow_go2.png" alt="&raquo;">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="fndsa_table" class="row">
+      <div class="large-12 columns end fndsa_box_wrapper">
+
+        <div id="fndsa_box_infographie_left" class="large-6 columns fndsa_box text-left">
+          <div class="fndsa_item clearfix editable">
+            <img class="left fndsa_infographie_icon" src="/img/Icone_Nuits.png" alt="">
+            <div class="right">
+              <p class="fndsa_infographie_value">297 000 nuitées</p>
+              <p class="fndsa_infographie_label">en centre d'hébergement</p>
+            </div>
+          </div>
+          <hr/>
+          <div class="fndsa_item clearfix editable">
+            <img class="left fndsa_infographie_icon" src="/img/Icon_Repas.png" alt="">
+            <div class="right">
+              <p class="fndsa_infographie_value">335 000</p>
+              <p class="fndsa_infographie_label">repas préparés</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="fndsa_star">
+          <div class="editable"><img src="img/en2014.png" alt=""></div>
+          <div class="fndsa_line"></div>
+          <!--<p>En<br>2014</p>-->
+        </div>
+
+        <div class="large-6 columns end fndsa_box text-right">
+          <div class="fndsa_item clearfix editable">
+            <img class="right fndsa_infographie_icon" src="/img/Icon_benevole.png" alt="">
+            <div class="left">
+              <p class="fndsa_infographie_value">1 580</p>
+              <p class="fndsa_infographie_label">bénévoles</p>
+            </div>
+          </div>
+          <hr/>
+          <div class="fndsa_item clearfix editable">
+            <img class="right fndsa_infographie_icon" src="/img/Icone_Sante.png" alt="">
+            <div class="left">
+              <p class="fndsa_infographie_value">9 000 actes</p>
+              <p class="fndsa_infographie_label">de santé</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="large-10 large-offset-1 columns end text-center editable">
+        <p class="fndsa_aidons_bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="large-10 large-offset-1 columns end text-center editable">
+        <a href="#" class="button primary radius fndsa_primary_correct">Je fais un don</a>
+      </div>
+
+    </div>
+
+    <div class="fndsa_background_green">
+    <div class="row fndsa_mission fndsa_bricabrac">
+      <h2 id="fndsa_mission_bricabrac editable">Les bric à brac</h2>
+
+      <div class="large-5 large-offset-1 columns editable">
+        <a href="#" class="button outline radius expand">Qu'est-ce que c'est ?</a>
+      </div>
+      <div class="large-5 columns end editable">
+        <a href="#" class="button outline radius expand">Où acheter ?</a>
+      </div>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+      <a href="#" class="fndsa_actu_foyer right editable">
+        <span class="left">S'abonner à l'actualité du foyer</span>
+        <img class="right" src="img/actus.png" alt="">
+      </a>
+      </div>
+    </div>
+
+    <div id="fndsa_lactualite" class="row">
+      <div class="large-12 columns editable" style="position: relative;">
+        <h1>L'actualité</h1>
+      </div>
+      <ul class="large-block-grid-3 medium-block-grid-2 small-block-grid-1">
+        {% for post in site.posts %}
+        <li class="fndsa_lactualite_box_wrapper">
+          <div class="fndsa_lactualite_box">
+            <div class="fndsa_lactualite_box_title">{{post.title}}</div>
+            <hr/>
+            <div class="fndsa_lactualite_box_content">
+              {% if post.mode == 'titre + image' %}
+              <img src="{{post.vignette_path}}"  alt="">
+              {% else %}
+              <p>{{ post.excerpt }}</p>
+              {% endif %}
+            </div>
+            <div class="fndsa_lactualite_box_more"><a href="{{post.url}}"><img src="img/plusblue.png" alt=""></a></div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <div class="large-12 columns">
+
+        <div class="fndsa_margin text-center">
+          <a href="/actualites/" class="button outline radius fndsa_uppercase">Toutes les actualités</a>
+        </div>
+
+      </div>
+    </div>
+
+
+    {% include footer.html %}

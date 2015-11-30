@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+{% include mobile-nav.html %}
+{% include primary-nav.html %}
+
+{% assign previous = '' %}
+{% assign next = '' %}
+
+{% assign url = page.url %}
+{% for item in site.collections %}
+	{% assign collection = item[1] %}
+	{% assign collec_url = url | split: "/" %}
+	{% assign collection_index = collec_url.size | minus : 2 %}
+	{% assign collection_name =  collec_url[collection_index] %}
+	{% if section %}
+		{% if collection.output %}
+			{% assign next = collection %}
+			{% break %}
+		{% endif %}
+	{% elsif collection_name == collection.active_prefix %}
+		{% assign section = collection.title %}
+		{% assign items = collection.docs | sort: 'order' %}
+	{% elsif collection.output %}
+		{% assign previous = collection %}
+	{% endif %}
+{% endfor %}
+{% assign items_cpy=items %}
+
+<section class="main">
+        <div class="row header-titre">
+		    <div class="large-12 columns">
+	        {% if items %}
+			    {% include section-nav-left.html items=items previous_collection=previous next_collection=next %}
+		    {% endif %}
+	        {% if items_cpy %}
+			    {% include section-nav-right.html items=items_cpy previous_collection=previous next_collection=next %}
+		    {% endif %}
+	            <h1 class="text-center titre-article">{% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}</h1>
+		    </div>
+	    </div>
+	    <div class="row">
+	        <div class="large-12 columns">
+	            {% if page.introduction != empty or page.introduction != nill %}
+	                <p class="introduction text-center">{{ page.introduction }}</p>
+	            {% endif %}
+	        </div>
+	    </div>
+	    {% if page.imprimable %}
+		<div class="row">
+		  <div class="large-12 columns text-center">
+		    <a class="button print hvr-rectangle-out" onClick="window.print();return false">Imprimer</a>
+		  </div>
+		</div>
+		{% endif %}
+<!--	    
+	<div class="page-header">
+		<h1>{% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}</h1>
+		{% if page.introduction != empty or page.introduction != nill %}
+		    <p class="introduction">{{ page.introduction }}</p>
+		{% endif %}
+
+		{% if items %}
+			{% include section-nav.html items=items previous_collection=previous next_collection=next %}
+		{% endif %}
+	</div>
+-->
+	{% if page.module_img.header == true %}
+	  {% include module_img.html %}
+	{% endif %}
+	{% if page.module_video.header == true %}
+	  {% include module_video.html %}
+	{% endif %}
+	{% if page.module_slideshow.header == true %}
+	  {% include module_slideshow.html %}
+	{% endif %}
+	{% if page.module_progressbar.header == true %}
+	  {% include module_progressbar.html %}
+	{% endif %}
+	{% if page.module_map.header == true %}
+	  {% include module_map.html %}
+	{% endif %}
+	{% if page.module_buttons.header == true %}
+	  {% include module_buttons.html %}
+	{% endif %}
+	<article class="content">
+		<div class="row">
+		  <div class="large-12 columns">
+		    {{ content }}
+		  </div>
+		</div>
+	</article>
+    {% if page.module_img.footer == true %}
+        {% include module_img.html %}
+    {% endif %}
+    {% if page.module_video.footer == true %}
+        {% include module_video.html %}
+    {% endif %}
+    {% if page.module_slideshow.footer == true %}
+        {% include module_slideshow.html %}
+    {% endif %}
+    {% if page.module_buttons.footer == true %}
+	  {% include module_buttons.html %}
+	{% endif %}
+    {% if page.nofooter == nill %}
+    {% include footer.html %}
+  {% endif %}
+</section>
