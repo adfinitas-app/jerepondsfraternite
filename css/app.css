@@ -22,7 +22,7 @@ p,ul{text-align:left;}
 }
 .btbg {
     position: relative;
-    top: 150px;
+    top: -150px;
 }
 .center {
     display: block;
