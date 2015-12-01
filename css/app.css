@@ -1,9 +1,9 @@
 html, body {
     height: 100%;
     margin: 0;
-    }
+}
 .cover90 {
-    background: url(img/bg.jpg) no-repeat center center; 
+    background: url(/img/bg.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
