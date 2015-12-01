@@ -17,15 +17,12 @@
       $(document).foundation();
     </script>
     <script>
-    var height = 0;
-    height = $(window).height();
-    $("#bg-width").css("height", height * 0.85 + "px");
-      $(".paddbutton").css("margin-top", height * 0.05 + "px");
-      $(".paddbutton").css("margin-bottom", height * 0.05 + "px");
+    $("#bg-width").css("height", $(window).height() * 0.85 + "px");
+      $(".paddbutton").css("margin-top", $(window).height() * 0.05 + "px");
+      $(".paddbutton").css("margin-bottom", $(window).height() * 0.05 + "px");
     $( window ).resize(function() {
-      height = $(window).height();
-      $(".paddbutton").css("margin-top", height * 0.05 + "px");
-      $(".paddbutton").css("margin-bottom", height * 0.05 + "px");
+      $(".paddbutton").css("margin-top", $(window).height() * 0.05 + "px");
+      $(".paddbutton").css("margin-bottom", $(window).height() * 0.05 + "px");
     });
     </script>
   </body>
