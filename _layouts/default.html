@@ -17,9 +17,12 @@
       $(document).foundation();
     </script>
     <script>
-    $("#bg-width").css("height", $(window).height() * 0.85 + "px");
+    var height = 0;
+    height = $(window).height();
+    $("#bg-width").css("height", height * 0.85 + "px");
     $( window ).resize(function() {
-      $("#bg-width").css("height", $(window).height() * 0.85 + "px");
+      height = $(window).height();
+      $("#bg-width").css("height", height * 0.85 + "px");
     });
     </script>
   </body>
