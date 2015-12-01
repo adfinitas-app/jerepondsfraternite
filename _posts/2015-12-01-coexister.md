@@ -1,9 +1,9 @@
 ---
 layout: template-post
-title: "Des outils ludo-éducatifs pour faire découvrir aux enfants la laïcité"
-categorie: "Association ENQUÊTE"
+title: "Vivre des actions citoyennes par des jeunes de toutes religions"
+categorie: "Association COEXISTER"
 vignette_path: "/img/bg.jpg"
-description: "Paris, Grigny, Lille, Lyon, Marseille, Bordeaux, Nice, Strasbourg … Comment répondre aux tensions ?"
+description: "Dans les quartiers comme à l'université, comment faire pour que la laïcité puisse se vivre ?"
 ---
 
 test
