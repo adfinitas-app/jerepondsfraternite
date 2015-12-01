@@ -14,7 +14,7 @@ html, body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 80px 60px;
 }
 .paddcoverhome {
     padding-bottom: 46%;
