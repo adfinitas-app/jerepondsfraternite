@@ -20,10 +20,12 @@
     var height = 0;
     height = $(window).height();
     $("#bg-width").css("height", height * 0.85 + "px");
+      $(".paddbutton").css("margin-top", height * 0.05 + "px");
+      $(".paddbutton").css("margin-bottom", height * 0.05 + "px");
     $( window ).resize(function() {
       height = $(window).height();
-      $(".paddbutton").css("height", height * 0.85 + "px");
-      $(".paddbutton").css("height", height * 0.85 + "px");
+      $(".paddbutton").css("margin-top", height * 0.05 + "px");
+      $(".paddbutton").css("margin-bottom", height * 0.05 + "px");
     });
     </script>
   </body>
