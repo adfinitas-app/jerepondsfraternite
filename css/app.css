@@ -30,8 +30,8 @@ p,ul{text-align:left;}
     color: #797979;
 }
 .paddheader {
-    padding-top: 110px;
-    padding-bottom: 110px;
+    margin-top: 110px;
+    margin-bottom: 110px;
 }
 #posts img {
     height: 108px;
