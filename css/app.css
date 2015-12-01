@@ -22,6 +22,7 @@ p,ul{text-align:left;}
 }
 .btbg {
     width: 50%;
+    padding-right: 40px;
 }
 .center {
     display: block;
