@@ -1,6 +1,6 @@
 ---
 layout: template-post
-title: Des outils ludo-éducatifs pour faire découvrir aux enfants la laïcité
+title: Des outils ludo-éducatifs pour faire découvrir aux enfants la laïcité2
 categorie: Association ENQUÊTE
 description: 'Paris, Grigny, Lille, Lyon, Marseille, Bordeaux, Nice, Strasbourg … Comment répondre aux tensions ?'
 vignette_path: /img/bg.jpg
