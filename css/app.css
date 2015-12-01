@@ -11,14 +11,11 @@ p,ul{text-align:left;}
     background-size: cover;
 }
 .coverpost {
-    background: url(/img/projets.png) no-repeat center center; 
+    background: url(/img/bgpj.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-.paddcoverpost {
-    padding-bottom: 27%;
 }
 .btbg {
     position: relative;
@@ -39,6 +36,10 @@ p,ul{text-align:left;}
 
 #posts a {
     color: #797979;
+}
+
+#posts h4 {
+    text-width
 }
 
 @media screen and (max-width: 640px) {
