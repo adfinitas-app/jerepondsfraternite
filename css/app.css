@@ -31,3 +31,7 @@ p,ul{text-align:left;}
 .text-gray {
     color: #797979;
 }
+
+#post img {
+    height: 108px;
+}
