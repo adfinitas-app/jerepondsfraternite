@@ -37,6 +37,10 @@ p,ul{text-align:left;}
     height: 108px;
 }
 
+#posts a {
+    color: #797979;
+}
+
 @media screen and (max-width: 640px) {
     .btbg {
         position: relative;
