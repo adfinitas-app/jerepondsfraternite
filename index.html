@@ -14,23 +14,25 @@ layout: default
     <section id="posts">
       <div class="row">
         <div class="large-offset-2 large-8 columns">
+        {% for post in site.posts %}
           <div class="row">
             <div class="large-4 columns">
-              <img src="img/bg.jpg">
+              <img src="{{post.vignette_path}}">
             </div>
             <div class="large-8 columns">
-              <h4>Des outils ludo-éducatifs pour faire découvrir aux enfants la laïcité</h4>
+              <h4>{{post.title}}</h4>
               <p>Association ENQUÊTE</p>
               <p>Paris, Grigny, Lille, Lyon, Marseille, Bordeaux, Nice, Strasbourg … Comment répondre aux tensions ?</p>
             </div>
           </div>
+        {% endfor %}
         </div>
       </div>
     </section>
 <!--        {% for post in site.posts %}
         <li class="fndsa_lactualite_box_wrapper">
           <div class="fndsa_lactualite_box">
-            <div class="fndsa_lactualite_box_title">{{post.title}}</div>
+            <div class="fndsa_lactualite_box_title"></div>
             <hr/>
             <div class="fndsa_lactualite_box_content">
               {% if post.mode == 'titre + image' %}
