@@ -19,6 +19,10 @@ html, body {
 .paddcoverpost {
     padding-bottom: 27%;
 }
+.btbg {
+    width: 450px;
+    padding-right: 30px;
+}
 .center {
     display: block;
     margin-left: auto;
