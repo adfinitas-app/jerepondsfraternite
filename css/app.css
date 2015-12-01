@@ -2,13 +2,12 @@ html, body {
     height: 100%;
     margin: 0;
 }
-.cover90 {
+.cover {
     background: url(/img/bg.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom: 46%;
 }
 .center {
     padding-top: 30px;
