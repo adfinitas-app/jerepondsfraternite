@@ -33,6 +33,10 @@ p,ul{text-align:left;}
     margin-top: 110px;
     margin-bottom: 110px;
 }
+.padding-actu {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
 #posts img {
     height: 108px;
 }
