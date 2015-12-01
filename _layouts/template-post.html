@@ -3,4 +3,12 @@ layout: default
 ---
 <div class="coverpost paddcoverpost">
 </div>
-{{content}}
+<div class="row">
+    <div class="large-12 columns text-center">
+        <h1>{{post.title}}</h1>
+        <h3>{{post.categorie}}</h3>
+        <img src="{{post.vignette_path}}">
+        <h3>{{post.description}}</h3>
+        {{content}}
+    </div>
+</div>
