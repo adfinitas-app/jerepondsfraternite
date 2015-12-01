@@ -8,5 +8,3 @@ iraiser_counter_user_pass:
 collections:
   posts:
     output: true
-  drafts:
-    output: true
