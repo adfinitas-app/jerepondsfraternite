@@ -21,7 +21,8 @@ p,ul{text-align:left;}
     padding-bottom: 27%;
 }
 .btbg {
-    position: absolute;
+    position: relative;
+    top: 150px;
 }
 .center {
     display: block;
