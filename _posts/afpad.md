@@ -1,8 +1,8 @@
 ---
 layout: template-post
-title: Des outils ludo-éducatifs pour faire découvrir aux enfants la laïcité
-categorie: Association ENQUÊTE
-description: 'Paris, Grigny, Lille, Lyon, Marseille, Bordeaux, Nice, Strasbourg … Comment répondre aux tensions ?'
+title: Parents, enfants, institution : des espaces pour se comprendre
+categorie: Association pour la Formation, la Prévention et l’Accès au droit (AFPAD)
+description: 'Faire face aux problèmes d’incivilité, redonner sens et valeur à la citoyenneté.'
 vignette_path: /img/bg.jpg
 ---
 
