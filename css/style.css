@@ -161,7 +161,7 @@ header ul, header li {
 }
 
 .hero {
-	background: #000 url('/img/bg.jpg') no-repeat top center fixed; 
+	background: #000 url('/img/bg.jpg') no-repeat top center fixed;
 	padding: 0 0 150px 0;
 	color: #f2f2f2;
 	text-align: center;
@@ -346,7 +346,7 @@ textarea {
     }
 
 	.hero {
-		padding: 70px 0 150px 0;
+		padding: 0px 0 0px 0;
 	}
 
 	.thin-hero {
