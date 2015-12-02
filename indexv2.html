@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,6 +35,24 @@
 <section id="projet" class="alternate-section">
 	<div class="container">
 		<h2 class="editable">Les projets soutenus</h2>
+
+    <div class="row">
+      <div class="large-offset-2 large-8 columns">
+      {% for post in site.posts %}
+        <div class="row">
+          <div class="large-4 columns">
+            <img src="{{post.vignette_path}}">
+          </div>
+          <div class="large-8 columns">
+            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+            <p >{{post.categorie}}</p>
+            <p class="text-gray">{{post.description}}</p>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+
 
 		<div class="thirds clearfix">
 			<div>
