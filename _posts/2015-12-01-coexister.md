@@ -1,5 +1,5 @@
 ---
-layout: templatepostV2
+layout: post
 title: Vivre des actions citoyennes par des jeunes de toutes religions
 categorie: Association COEXISTER
 vignette_path: /img/coexister_large.png
