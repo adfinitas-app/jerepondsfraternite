@@ -1,6 +1,5 @@
 name: jerepondsfraternite
 author: adfinitas
-url_iraiser: "https://dons.fondationdefrance.org/netful-presentation-association/FONDS_11_JANVIER/fse/index.html"
 collections:
   posts:
     output: true
