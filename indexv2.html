@@ -1,35 +1,11 @@
 ---
+layout: templateV2
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Nimbus: A free HTML 5 template by Cloud Cannon</title>
-    <link rel="shortcut icon" href="favicon.png">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="/css/foundation.min.css" />
-    <link href="http://fonts.googleapis.com/css?family=Lato:900,400,300" rel="stylesheet" type="text/css">
-    <link href="/css/style.css" rel="stylesheet">
-  </head>
-  <body>
-
-
-<section class="hero">
-	<div class="container">
-		<h1 class="editable"><a href="https://dons.fondationdefrance.org/netful-presentation-association/FONDS_11_JANVIER/fse/index.html" target="_blank"><img class="center" src="/img/bgtext.png"></a></h1>
-	</div>
-</section>
-
+{% include hero_index.html %}
 <section>
 	<div class="container">
-		<h3 style="text-align:center"><a href="#"><img src="/img/btdecouvert.jpg"></a></h3>
-
-</div>
+		<h3 style="text-align:center"><a href="#projet"><img src="/img/btdecouvert.jpg"></a></h3>
+  </div>
 </section>
 
 <section id="projet" class="alternate-section">
@@ -50,59 +26,4 @@
       {% endfor %}
       </div>
     </div>
-
-<!--
-		<div class="thirds clearfix">
-			<div>
-				<div class="portfolio-block">
-					<img width="350" height="150" src="/img/billows.png" alt="Billows template screenshot" class="editable">
-					<h4 class="editable">Billows</h4>
-					<p class="editable"><a href="http://billows.cloudvent.net">billows.cloudvent.net</a></p>
-				</div>
-			</div>
-
-			<div>
-				<div class="portfolio-block">
-					<img width="350" height="150" src="/img/cirrus.png" alt="Cirrus template screenshot" class="editable">
-					<h4 class="editable">Cirrus</h4>
-					<p class="editable"><a href="http://cirrus.cloudvent.net">cirrus.cloudvent.net</a></p>
-				</div>
-			</div>
-
-			<div>
-				<div class="portfolio-block">
-					<img width="350" height="150" src="/img/nimbus.png" alt="Nimbus template screenshot" class="editable">
-					<h4 class="editable">Nimbus</h4>
-					<p class="editable"><a href="http://nimbus.cloudvent.net">nimbus.cloudvent.net</a></p>
-				</div>
-			</div>
-		</div>
-
-		<p class="editable see-more"><a href="/work">See more of our work &gt;</a></p>
-    -->
 </section>
-
-
-	<section>
-		<div class="container subheader">
-			<h3>Nous rejoindre</h3>
-			<p> Nous vous proposons plusieurs moyens de nous rejoindre. On compte sur vous ! </p>
-			<p><a href="https://dons.fondationdefrance.org/netful-presentation-association/FONDS_11_JANVIER/fse/index.html" class="button">Je fais un don</a></p>
-
-      <p>
-        <a href="https://www.facebook.com/jerepondsfraternite" target="_blank"><img src="/img/facebook.jpg"></a>
-        <a href="https://twitter.com/jerepondsfrater" target="_blank"><img src="/img/twitter.jpg"></a>
-      </p>
-      <p>
-        <a href="https://twitter.com/hashtag/jerepondsfraternit%C3%A9?src=hash" target="_blank">#jerépondsfraternité</a>
-      </p>
-		</div>
-	</section>
-  {% include footer.html %}
-    <script src="/js/vendor/jquery.min.js"></script>
-    <script src="/js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
-</html>
