@@ -17,7 +17,13 @@
     <link href="/css/style.css" rel="stylesheet">
   </head>
   <body>
-  {{content}}
+	{% include hero_index_interne.html %}
+  <section id="projet" class="alternate-section">
+    <div class="row">
+        {{content}}
+    </div>
+  </section>
+  {% include footer.html %}
     <script src="/js/vendor/jquery.min.js"></script>
     <script src="/js/foundation.min.js"></script>
     <script>
