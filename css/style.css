@@ -96,6 +96,9 @@ a:focus {
 	clear: both;
 }
 
+.alternate-section ul {padding-left: 3rem;}
+
+
 header {
 	line-height: 55px;
 	margin-bottom: 100px;
