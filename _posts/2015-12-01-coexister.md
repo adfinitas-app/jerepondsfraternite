@@ -38,14 +38,6 @@ L’association va renforcer le maillage territorial de l’association, accompa
 
 Kawaa, Grandir ensemble, Enqu&ecirc;te
 
-#### Le porteur de projet
-
-Association COEXISTER [http://www.coexister.fr](http://www.coexister.fr)
-
-#### Contact :
-
-Samuel GRZYBOWSKI, D&eacute;l&eacute;gu&eacute; g&eacute;n&eacute;ral.
-
 Quelques chiffres :
 
 Co&ucirc;t total du projet : 1 426 693 euros
