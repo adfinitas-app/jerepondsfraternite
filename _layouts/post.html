@@ -36,9 +36,11 @@
     <script>
 $(document).ready(function() {
     var stickyNavTop = $('.nav').offset().top;
+    var heightNav = $(".stcky-container").height();
     var stickyNav = function(){
         var scrollTop = $(window).scrollTop();
         if (scrollTop > stickyNavTop) { 
+            $(".sticky-container").height(heightNav);
             $('.nav').addClass('sticky');
         } else {
             $('.nav').removeClass('sticky'); 
