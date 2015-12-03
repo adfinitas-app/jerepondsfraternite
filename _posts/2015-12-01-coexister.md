@@ -34,10 +34,6 @@ L’association va renforcer le maillage territorial de l’association, accompa
 
 20 000 jeunes sur l’ensemble de la France – coll&eacute;giens, lyc&eacute;ens, &eacute;tudiants, apprentis, jeunes adultes.
 
-#### Partenaires du projet :
-
-Kawaa, Grandir ensemble, Enqu&ecirc;te
-
 #### Quelques chiffres :
 
 Co&ucirc;t total du projet : 1 426 693 euros
